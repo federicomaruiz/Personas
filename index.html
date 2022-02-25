@@ -1,34 +1,92 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
 </head>
+
 <body>
-    
-    <nav class="navigation">
-        <div class="box-logo">
-            <a href="/">
-                <img class="logo" src="images/logo.png" alt="logotipo">
-                <p class="logo-txt">People</p>
-            </a>
+
+    <div class="bg-head">
+
+        <nav class="navigation container">
+            <div class="box-logo">
+                <a href="#">
+                    <img class="logo" src="images/logoGris.png" alt="logotipo">
+                    <p class="logo-txt">People</p>
+                </a>
+            </div>
+
+            <div class="box-links">
+                <a href="#">Inicio</a>
+                <a href="#">Trending</a>
+                <a href="#">Sobre nosotros</a>
+            </div>
+
+            <div class="box-search">
+                <input type="search" name="buscador" placeholder="Busca un personaje     🔍">
+            </div>
+        </nav>
+
+        <header class="container">
+            <h4>Conoce a las personas</h4>
+            <h1>Encuentra a los personajes del momento</h1>
+            <p>Un proyecto creado para dar a conocer a los personajes del mundo.</p>
+            <a class="btn-primary" href="#">Ver todos</a>
+            <a class="btn-outlined" href="#">Entra como admin</a>
+        </header>
+
+    </div>
+
+    <div class="main-images">
+        <div class="box-image h-300" style= "background-image: url('images/p1.jpeg');"></div>
+        <div class="box-image" style="background-image: url('images/p2.jpeg');"></div>
+        <div class="box-image h-250" style="background-image: url('images/p3.jpeg');"></div>
+        <div class="box-image h-300" style="background-image: url('images/p4.jpeg');"></div>
+        <div class="box-image h-250" style="background-image: url('images/p5.jpeg');"></div>
+        <div class="box-image" style="background-image: url('images/p6.jpeg');"></div>
+        <div class="box-image h-300" style="background-image: url('images/p7.jpeg');"></div>
+    </div>
+
+    <footer class="container">
+        
+        <img class="logo" src="images/logo.png" alt="logotipo">
+        <div class="footerlogo">
+            <h6>People</h6>
         </div>
+        
 
         <div class="box-links">
             <a href="#">Inicio</a>
             <a href="#">Trending</a>
             <a href="#">Sobre nosotros</a>
+            <a href="#">Administrador</a>
         </div>
 
-        <div class="box-search">
-            <label for="Buscador">Buscador</label>
-            <input type="search">
+        <div class="social">
+            <a href="#">
+                <img src="images/face.png" alt="Facebook">
+            </a>
+            <a href="#">
+                <img src="images/ig.png" alt="Instagram">
+            </a>
+            <a href="#">
+                <img src="images/tw.png" alt="twitter">
+            </a>
+            <a href="#">
+                <img src="images/link.png" alt="Linkein">
+            </a>
         </div>
-    </nav>
 
+        <p>Hecho en la costa del sol 2022</p>
+    </footer>
 </body>
-</html>
 
+</html>
